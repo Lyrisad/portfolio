@@ -1939,7 +1939,7 @@ body {
         justify-content: center;
         flex-direction: column;
         height: 40vh;
-        width: 100vw;
+        width: 100vw; 
         margin-bottom: 11px;
     }
 
