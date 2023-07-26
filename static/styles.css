@@ -1976,7 +1976,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 10vh;
+        height: 7vh;
         width: 100vw;
         padding-left: 0px;
     }
@@ -1994,19 +1994,19 @@ body {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 53vh;
+        height: 52vh;
         width: 100vw;
     }
 
     #QVGDM5RightContainer p {
         animation: fadeOut 0.4s linear;
         text-align: center;
-        padding-left: 10vw;
+        padding-left: 9vw;
         color: white;
         font-size: 3vw;
         font-family: 'Roboto', sans-serif;
         letter-spacing: initial;
-        padding-right: 10vw;
+        padding-right: 9vw;
         margin-top: 0px;
     }
 
