@@ -209,6 +209,7 @@ let whereAreYouNow = document.getElementById('whereAreYouNow');
 let skills = document.getElementById('skills');
 let rondnoir = document.getElementById('rond-noir');
 let svgPage = document.getElementById('svg-Page');
+let photoMe = document.getElementById('photoMe');
 
 
 const debounce = (func, wait, immediate) => {
@@ -252,15 +253,18 @@ const debounce = (func, wait, immediate) => {
 
 let clickCounterSkills = 0
 skills.addEventListener('click', debounce(function () {
+    photoMe.style.animation = 'none';
     arrowNextPageLeft.style.animation = 'none';
     arrowNextPageRight.style.animation = 'none';
     whereAreYouNow.style.animation = 'none';
     svgPage.style.animation = 'none';
     if (clickCounterSkills == 0) {
+        photoMe.style.animation = 'fadeOut 1s bodyFadeOut 1s ease-in-out';
         arrowNextPageLeft.style.animation = 'bodyFadeOut 1s ease-in-out';
         arrowNextPageRight.style.animation = 'bodyFadeOut 1s ease-in-out';
         whereAreYouNow.style.animation = 'bodyFadeOut 1s ease-in-out';
         setTimeout(function () {
+        photoMe.style.display = 'none';
         arrowNextPageLeft.style.display = 'none';
         arrowNextPageRight.style.display = 'none';
         whereAreYouNow.style.display = 'none';
@@ -281,6 +285,7 @@ skills.addEventListener('click', debounce(function () {
         skills.style.animation = 'fadeOut 2s ease-in-out';
         svgPage.style.animation = 'bodyFadeOut 0.5s ease-in-out';
         setTimeout(function () {
+            photoMe.style.display = 'flex';
             arrowNextPageLeft.style.display = 'flex';
             arrowNextPageRight.style.display = 'flex';
             whereAreYouNow.style.display = 'flex';
