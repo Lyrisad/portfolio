@@ -756,46 +756,47 @@ body {
 }
 
 #QVGDM4LeftContainer {
-    padding-left: 40px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     height: 80vh;
-    width: 35vw;
+    width: 50vw;
 }
 
 #QVGDM4LeftContainer img {
     animation: fadeOut 0.5s linear;
     border-radius: 20px;
     border: 3px solid var(--primary);
-    height: 67%;
-    width: 100%;
-    margin-bottom: 25px;
+    height: auto;
+    width: 34vw;
+    margin-bottom: 15vh;
 }
 
 #QVGDM4LeftContainer h2 {
     animation: fadeOut 0.3s linear;
-    padding-top: 5px;
     color: var(--primary);
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 #QVGDM4RightContainer {
     display: flex;
-    padding-left: 50px;
-    padding-top: 250px;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     height: 80vh;
-    width: 65vw;
+    width: 50vw;
 }
 
 #QVGDM4RightContainer p {
     animation: fadeOut 0.4s linear;
     text-align: left;
     color: white;
-    font-size: 1.55em;
+    font-size: 1.33vw;
     font-family: 'Roboto', sans-serif;
     letter-spacing: initial;
-    padding-right: 50px;
+    padding-right: 2vw;
+    margin-top: 0px;
 }
 
 #QVGDM3LeftContainer {
@@ -1895,6 +1896,64 @@ body {
         margin-bottom: 5px;
         margin-top: 75px;
     }
+
+    /*QVGDM4*/
+    #QVGDM4 {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        width: 100vw;
+        margin-bottom: 100px;
+    }
+    
+
+#QVGDM4LeftContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 22vh;
+    width: 100vw;
+}
+
+#QVGDM4LeftContainer img {
+    animation: fadeOut 0.5s linear;
+    border-radius: 20px;
+    border: 3px solid var(--primary);
+    height: auto;
+    width: 35vw;
+    margin-bottom: 0vh;
+}
+
+#QVGDM4LeftContainer h2 {
+    animation: fadeOut 0.3s linear;
+    color: var(--primary);
+    font-size: 6vw;
+}
+
+#QVGDM4RightContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 100vw;
+}
+
+#QVGDM4RightContainer p {
+    animation: fadeOut 0.4s linear;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: initial;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    margin-top: 0px;
+}
+
 
 }
 
